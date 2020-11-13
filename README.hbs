@@ -1,0 +1,41 @@
+# domnom
+A limited collection of JavaScript DOM prototype extensions.
+
+# Installation
+```bash
+npm install domnom
+```
+
+# Usage
+Include the script.
+
+```html
+<script src="domnom.min.js"></script>
+```
+Use familiar DOM syntax.
+
+```javascript
+document.querySelector('.comment').addEventListener('keyup', 'keydown', key_handler);
+```
+
+# Building
+```bash
+npm install
+npm run build
+```
+
+# API Reference
+
+{{#identifiers}}
+{{>header~}}
+{{>description~}}
+{{>params~}}
+{{#examples}}
+{{{inlineLinks example}}}
+{{/examples}}
+{{#if see~}}
+{{#each see}}
+{{{inlineLinks this}}}  
+{{/each}}
+{{/if~}}
+{{/identifiers}}

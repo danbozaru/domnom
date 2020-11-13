@@ -1,0 +1,30 @@
+{
+  "name": "domnom",
+  "version": "0.2.1",
+  "description": "A limited collection of JavaScript DOM prototype extensions.",
+  "author": "ohdeerdog",
+  "license": "SEE LICENSE IN LICENSE file",
+  "keywords": [
+    "DOM",
+    "javascript",
+    "prototype",
+    "addEventListener multiple",
+    "document.activeElement addEventListener"
+  ],
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohdeerdog/domnom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ohdeerdog/domnom/issues"
+  },
+  "homepage": "https://github.com/ohdeerdog/domnom",
+  "npmurl": "https://npmjs.com/package/domnom",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^3.0.0",
+    "uglify-js-harmony": "^2.7.5"
+  }
+}
